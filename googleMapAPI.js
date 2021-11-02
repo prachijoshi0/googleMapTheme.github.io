@@ -363,7 +363,7 @@ function initMap() {
     });
 
     marker.setMap(map);
-    //marker.setMap(null);
+ 
 
 
 }
@@ -375,8 +375,3 @@ for (var i = 0; i < rad.length; i++) {
         map.setOptions({ styles: themes[this.value] })
     });
 }
-
-// $(document).on('click', '.mapp', function () {
-//     $(this).addClass('active').siblings().removeClass('active')
-// alert('yes');
-// })
